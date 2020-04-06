@@ -1,4 +1,4 @@
-task packageScenario(type:Exec) {
+task dockerBuild(type:Exec) {
   
     // set working dir to project root (i.e. current directory) [TODO this may not be robust]
     workingDir '.'  
